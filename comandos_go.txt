@@ -1,0 +1,7 @@
+go run (nomde do arquivo) -> rodar arquivo go
+go mod init (nome do modulo) -> criar um modulo para agrupar packages, ou seja, quando for compilar, vai se compilar tudo de uma vez
+go build -> cria um arquivo binário que compilou todo codigo que esta no projeto
+go install -> faz a mesma coisa que o build, mas na raiz do projeto
+go get -> baixar pacotes externos
+go mod tidy -> remover todas as dependencias que não estão sendo utilizadas
+go run main.go ip --host amazon.com.br -> Aplicacao Linha de comando
